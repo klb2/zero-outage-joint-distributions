@@ -2,7 +2,8 @@
 
 This repository contains supplementary material for the paper "On the Set of
 Joint Rayleigh Fading Distributions Achieving Positive Zero-Outage Capacities"
-(Karl-L. Besser, Pin-Hsun Lin, and Eduard Jorswieck, 2020, [doi:XXX]()).
+(Karl-L. Besser, Pin-Hsun Lin, and Eduard Jorswieck, 2020 54th Asilomar
+Conference on Signals, Systems, and Computers, 2020, [doi:XXX]()).
 
 The idea is to give an interactive version of the calculations and presented
 concepts to the reader. One can also change different parameters and explore
@@ -17,6 +18,8 @@ The following files are provided in this repository:
 * [Rayleigh
   Fading.ipynb](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/master?filepath=Rayleigh%20Fading.ipynb):
   Jupyter notebook that contains plots about the results for Rayleigh fading.
+* `rayleigh_fading.py`: Python module that contains the calculations of the ZOC
+  for Rayleigh fading channels.
 
 
 ## Usage
@@ -36,7 +39,7 @@ The present code was developed and tested with the following versions:
 
 Make sure you have [Python3](https://www.python.org/downloads/) installed on
 your computer.
-You can then install the requires packages (including Jupyter) by running
+You can then install the required packages (including Jupyter) by running
 ```bash
 pip3 install -r requirements.txt
 jupyter nbextension enable --py widgetsnbextension

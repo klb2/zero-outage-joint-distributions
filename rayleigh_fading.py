@@ -1,3 +1,29 @@
+"""Functions to calculate the ZOCs for Rayleigh fading channels
+
+This module contains different functions for calculating the zero-outage
+capacities for Rayleigh fading channels with different joint distributions.
+
+
+Copyright (C) 2020 Karl-Ludwig Besser
+
+This program is used in the article:
+Karl-Ludwig Besser, Pin-Hsun Lin, and Eduard Jorswieck, "On the Set of Joint
+Rayleigh Fading Distributions Achieving Positive Zero-Outage Capacities", 2020
+54th Asilomar Conference on Signals, Systems, and Computers, 2020.
+
+License:
+This program is licensed under the GPLv3 license. If you in any way use this
+code for research that results in publications, please cite our original
+article listed above.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+Author: Karl-Ludwig Besser, Technische Universität Braunschweig
+"""
+
 import numpy as np
 from scipy import stats
 from scipy import integrate
