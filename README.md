@@ -20,6 +20,8 @@ The following files are provided in this repository:
   Jupyter notebook that contains plots about the results for Rayleigh fading.
 * `rayleigh_fading.py`: Python module that contains the calculations of the ZOC
   for Rayleigh fading channels.
+* `copulas.py`: Python module that contains the copulas used to construct joint
+  distributions with positive ZOCs.
 
 
 ## Usage
