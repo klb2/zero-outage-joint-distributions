@@ -1,9 +1,16 @@
 # Set of Joint Distributions Achieving Positive Zero-Outage Capacities
 
-This repository contains supplementary material for the paper "On the Set of
+This repository contains supplementary material for the papers "On the Set of
 Joint Rayleigh Fading Distributions Achieving Positive Zero-Outage Capacities"
 (Karl-L. Besser, Pin-Hsun Lin, and Eduard Jorswieck, 2020 54th Asilomar
-Conference on Signals, Systems, and Computers, 2020, [doi:XXX]()).
+Conference on Signals, Systems, and Computers, 2020, [doi:XXX]()) and
+"On Fading Channel Dependency Structures with a Positive Zero-Outage Capacity"
+(Karl-L. Besser, Pin-Hsun Lin, and Eduard Jorswieck, submitted to IEEE
+Transactions to Communications, 2021, [arXiv:XXX]()).
+
+The files specific to the conference version can be found in the `asilomar2020`
+branch.
+
 
 The idea is to give an interactive version of the calculations and presented
 concepts to the reader. One can also change different parameters and explore
