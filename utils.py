@@ -6,8 +6,8 @@ This module contains different helper functions, e.g., to export the results.
 Copyright (C) 2021 Karl-Ludwig Besser
 
 This program is used in the article:
-Karl-Ludwig Besser and Eduard Jorswieck, "On Fading Channel Dependency
-Structures with a Positive Zero-Outage Capacity", submitted to IEEE
+Karl-Ludwig Besser, Pin-Hsun Lin, and Eduard Jorswieck, "On Fading Channel
+Dependency Structures with a Positive Zero-Outage Capacity", submitted to IEEE
 Transactions in Communications.
 
 License:
