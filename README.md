@@ -22,13 +22,25 @@ different behaviors on their own.
 ## File List
 The following files are provided in this repository:
 
-* [Rayleigh
-  Fading.ipynb](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/master?filepath=Rayleigh%20Fading.ipynb):
-  Jupyter notebook that contains plots about the results for Rayleigh fading.
+* [Maximum Ratio
+  Combining.ipynb](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/master?filepath=Maximum%20Ratio%20Combining.ipynb):
+  Jupyter notebook that contains the MRC examples.
+* [Selection
+  Combining.ipynb](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/master?filepath=Selection%20Combining.ipynb):
+  Jupyter notebook that contains the SC examples.
 * `rayleigh_fading.py`: Python module that contains the calculations of the ZOC
   for Rayleigh fading channels.
+* `nakagami_fading.py`: Python module that contains the calculations of the ZOC
+  for Nakagami-m fading channels.
+* `maximum_ratio_combining.py`: Python module that contains the calculations of
+  the MRC examples.
+* `selection_combining.py`: Python module that contains the calculations of the
+  SC examples.
+* `boundary.py`: Python module that contains an illustration of the ZOC idea
+  (boundary of the support).
 * `copulas.py`: Python module that contains the copulas used to construct joint
   distributions with positive ZOCs.
+* `utils.py`: Python module that contains some helper functions
 
 
 ## Usage
@@ -59,7 +71,12 @@ notebooks.
 
 Finally, you can run the Jupyter notebooks with
 ```bash
-jupyter notebook 'Rayleigh Fading.ipynb'
+jupyter notebook 'Maximum Ratio Combining.ipynb'
+```
+
+You can also recreate the figures from the paper by running
+```bash
+bash run.sh
 ```
 
 
