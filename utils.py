@@ -1,6 +1,6 @@
-"""Copulas
+"""Helper functions
 
-This module contains different copula functions.
+This module contains different helper functions, e.g., to export the results.
 
 
 Copyright (C) 2021 Karl-Ludwig Besser
@@ -23,22 +23,21 @@ See the GNU General Public License for more details.
 Author: Karl-Ludwig Besser, Technische Universität Braunschweig
 """
 
+from itertools import tee
+
 import numpy as np
+import pandas as pd
 
-@np.vectorize
-def zoc_copula1(a, b, t=.5):
-    if np.abs(a-b)>t:
-        c = np.minimum(a, b)
-    elif np.abs(a+b-1) > 1-t:
-        c = np.maximum(a+b-1, 0)
-    else:
-        c = (a+b)/2 - t/2
-    return c
+#https://docs.python.org/3/library/itertools.html#itertools-recipes
+def pairwise(iterable):
+    "s -> (s0,s1), (s1,s2), (s2, s3), ..."
+    a, b = tee(iterable)
+    next(b, None)
+    return zip(a, b)
 
-@np.vectorize
-def zoc_copula2(a, b, t=.5):
-    if a < t and b < t:
-        c = np.maximum(a+b-t, 0)
-    else:
-        c = np.minimum(a, b)
-    return c
+def export_results(data, filename):
+    data = pd.DataFrame.from_dict(data)
+    data.to_csv(filename, sep='\t', index=False)
+
+def w_copula(a, b):
+    return np.maximum(a + b - 1, 0)
