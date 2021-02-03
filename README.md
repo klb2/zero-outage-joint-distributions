@@ -9,14 +9,14 @@ The idea is to give an interactive version of the calculations and presented
 concepts to the reader. One can also change different parameters and explore
 different behaviors on their own.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/asilomar2020)
 
 
 ## File List
 The following files are provided in this repository:
 
 * [Rayleigh
-  Fading.ipynb](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/master?filepath=Rayleigh%20Fading.ipynb):
+  Fading.ipynb](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/asilomar2020?filepath=Rayleigh%20Fading.ipynb):
   Jupyter notebook that contains plots about the results for Rayleigh fading.
 * `rayleigh_fading.py`: Python module that contains the calculations of the ZOC
   for Rayleigh fading channels.
@@ -28,7 +28,7 @@ The following files are provided in this repository:
 ### Running it online
 The easiest way is to use services like [Binder](https://mybinder.org/) to run
 the notebook online. Simply navigate to
-[https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/master](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/master)
+[https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/asilomar2020](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/asilomar2020)
 to run the notebooks in your browser without setting everything up locally.
 
 ### Local Installation
