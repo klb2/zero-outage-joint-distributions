@@ -6,7 +6,7 @@ Joint Rayleigh Fading Distributions Achieving Positive Zero-Outage Capacities"
 Conference on Signals, Systems, and Computers, 2020, [doi:XXX]()) and
 "On Fading Channel Dependency Structures with a Positive Zero-Outage Capacity"
 (Karl-L. Besser, Pin-Hsun Lin, and Eduard Jorswieck, submitted to IEEE
-Transactions to Communications, 2021, [arXiv:XXX]()).
+Transactions to Communications, 2021, [arXiv:2102.02541](https://arxiv.org/abs/2102.02541)).
 
 The files specific to the conference version can be found in the `asilomar2020`
 branch.
