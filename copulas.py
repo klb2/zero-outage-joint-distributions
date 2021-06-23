@@ -24,6 +24,7 @@ Author: Karl-Ludwig Besser, Technische Universität Braunschweig
 """
 
 import numpy as np
+from scipy import stats
 
 @np.vectorize
 def zoc_copula1(a, b, t=.5):
@@ -42,3 +43,27 @@ def zoc_copula2(a, b, t=.5):
     else:
         c = np.minimum(a, b)
     return c
+
+# Clayton Copula
+def copula_clayton_dv(u, v, theta):
+    """Derivative of C(u, v) wrt v. This corresponds to: Pr(U<u | V=v)"""
+    return v**(-1-theta)*(u**(-theta)+v**(-theta)-1)**(-1-1/theta)
+
+def inv_copula_clayton_dv(p, v, theta):
+    if theta == -1:
+        return 1.-v
+    else:
+        return (1-v**(-theta)+(v**(1+theta)*p)**(-theta/(1+theta)))**(-1/theta)
+
+def clayton_samples(n, rv_x=stats.uniform, rv_y=stats.uniform, theta=.25, u=None):
+    if theta == 0:
+        _x = rv_x.rvs(size=n)
+        _y = rv_y.rvs(size=n)
+    else:
+        if u is None:
+            u = np.random.rand(n)
+        u2 = np.random.rand(n)
+        uk1 = inv_copula_clayton_dv(u2, u, theta)
+        _y = rv_y.ppf(uk1)
+        _x = rv_x.ppf(u)
+    return (_x, _y)

@@ -39,7 +39,7 @@ def max_zoc_sc_heterog(qf_list):
     if len(qf_list) != 2:
         raise NotImplementedError("Right now, only n=2 is supported")
     p_star = _calc_p_star(*qf_list)
-    print(p_star)
+    #print(p_star)
     return np.log2(1 + qf_list[0](p_star))
 
 def _condition_p_star(p, qf1, qf2):
