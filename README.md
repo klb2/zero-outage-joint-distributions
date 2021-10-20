@@ -31,6 +31,10 @@ The following files are provided in this repository:
 * [Selection
   Combining.ipynb](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/master?filepath=Selection%20Combining.ipynb):
   Jupyter notebook that contains the SC examples.
+* [Example - Clayton
+  Copula.ipynb](https://mybinder.org/v2/gl/klb2%2Fzero-outage-joint-distributions/master?filepath=Example%20%2D%20Clayton%20Copula.ipynb):
+  Jupyter notebook that illustrates an example of a positive ZOC with an
+  underlying Clayton copula.
 * `rayleigh_fading.py`: Python module that contains the calculations of the ZOC
   for Rayleigh fading channels.
 * `nakagami_fading.py`: Python module that contains the calculations of the ZOC
