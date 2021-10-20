@@ -3,10 +3,13 @@
 This repository contains supplementary material for the papers "On the Set of
 Joint Rayleigh Fading Distributions Achieving Positive Zero-Outage Capacities"
 (Karl-L. Besser, Pin-Hsun Lin, and Eduard Jorswieck, 2020 54th Asilomar
-Conference on Signals, Systems, and Computers, 2020, [doi:XXX]()) and
-"On Fading Channel Dependency Structures with a Positive Zero-Outage Capacity"
-(Karl-L. Besser, Pin-Hsun Lin, and Eduard Jorswieck, submitted to IEEE
-Transactions to Communications, 2021, [arXiv:2102.02541](https://arxiv.org/abs/2102.02541)).
+Conference on Signals, Systems, and Computers, Nov. 2020,
+[doi:10.1109/IEEECONF51394.2020.9443271](https://doi.org/10.1109/IEEECONF51394.2020.9443271))
+and "On Fading Channel Dependency Structures with a Positive Zero-Outage
+Capacity" (Karl-L. Besser, Pin-Hsun Lin, and Eduard Jorswieck, IEEE
+Transactions to Communications, vol. 69, no. 10, pp. 6561-6574, Oct. 2021,
+[doi:10.1109/TCOMM.2021.3097755](https://doi.org/10.1109/TCOMM.2021.3097755),
+[arXiv:2102.02541](https://arxiv.org/abs/2102.02541)).
 
 The files specific to the conference version can be found in the `asilomar2020`
 branch.
@@ -89,3 +92,21 @@ This research was supported in part by the Deutsche Forschungsgemeinschaft
 This program is licensed under the GPLv3 license. If you in any way use this
 code for research that results in publications, please cite our original
 article listed above.
+
+You can use the following BibTeX entry
+```bibtex
+@article{Besser2021zoc,
+	author = {Besser, Karl-Ludwig and Lin, Pin-Hsun and Jorswieck, Eduard A.},
+	title = {On Fading Channel Dependency Structures with a Positive Zero-Outage Capacity},
+	journal = {{IEEE} Transactions on Communications},
+	year = {2021},
+	volume = {69},
+	number = {10},
+	month = {10},
+	pages = {6561--6574},
+	eprint = {2102.02541},
+	archivePrefix = {arXiv},
+	primaryClass = {cs.IT},
+	doi = {10.1109/TCOMM.2021.3097755},
+}
+```

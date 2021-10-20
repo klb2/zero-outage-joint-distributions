@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Run all script to generate the results presented in the paper "On Fading
 # Channel Dependency Structures with a Positive Zero-Outage Capacity" (Karl-L.
-# Besser, Pin-Hsun Lin, Eduard Jorswieck)
+# Besser, Pin-Hsun Lin, Eduard Jorswieck, IEEE Transactions on Communications,
+# vol. 69, no. 10, pp. 6561-6574, Oct 2021.)
 #
 # Copyright (C) 2021 Karl-Ludwig Besser
 # License: GPLv3

@@ -8,8 +8,8 @@ Copyright (C) 2021 Karl-Ludwig Besser
 
 This program is used in the article:
 Karl-Ludwig Besser, Pin-Hsun Lin, and Eduard Jorswieck, "On Fading Channel
-Dependency Structures with a Positive Zero-Outage Capacity", submitted to IEEE
-Transactions in Communications.
+Dependency Structures with a Positive Zero-Outage Capacity", IEEE Transactions
+on Communications, vol. 69, no. 10, pp. 6561-6574, Oct 2021.
 
 License:
 This program is licensed under the GPLv3 license. If you in any way use this
